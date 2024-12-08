@@ -1,0 +1,183 @@
+{
+  "nav": {
+    "home": "Home",
+    "stories": "Stories",
+    "members": "Members",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Guarding Kindness, Protecting Animals",
+    "description": "PetFraud.org is a powerful coalition dedicated to protecting innocent lives by exposing and combating scammers who exploit animals and prey on the compassion of those who care."
+  },
+  "stories": {
+    "title": "Real Pet Scam Stories",
+    "description": "Read real stories about pet scams and learn how to protect yourself.",
+    "submitButton": "Story Submission",
+    "notFound": "Story Not Found",
+    "storyContent": {
+      "sir-carlos": {
+        "content": "During a severe typhoon in Hong Kong, our team received an urgent message about a cat needing rescue. The message claimed an elderly cat was trapped in a flooded basement, requiring immediate attention. The situation seemed dire, but something felt off. The person insisted on meeting at an unusual location in an industrial area, citing the weather as an excuse. They were pushy about coming alone and bringing equipment.\n\nThrough our experience and safety protocols, we identified several red flags:\n1. The location was far from the reported incident\n2. The insistence on meeting alone\n3. The urgency despite being unable to provide photos\n4. Inconsistent details about the cat's condition\n\n![Sir Carlos](/images/stories/sir-carlos-thumb.jpg){caption=Sir Carlos}\n\nWe followed our standard verification process:\n- Requested specific location details\n- Asked for photos or videos of the situation\n- Attempted to verify the caller's identity\n- Consulted with local rescue partners\n\nOur precautions proved vital - the address provided didn't exist, and similar scam attempts had been reported in the area. By maintaining our safety protocols even during emergency situations, we avoided what could have been a dangerous trap.\n\nKey Lessons:\n- Always meet in public, well-lit locations\n- Trust your instincts when something feels wrong\n- Have a buddy system for rescue operations\n- Verify emergency requests through trusted channels\n- Document and report suspicious patterns\n- Share information with other rescue organizations\n\nThis incident reinforced our commitment to safety protocols and highlighted the importance of maintaining vigilance even when emotions run high during emergencies."
+      },
+      "broken-heart": {
+        "content": "During the height of the pandemic, Sarah found what seemed to be the perfect puppy online - a golden retriever named Max. The seller appeared legitimate, sharing detailed photos, medical records, and even video calls showing the puppy. The price was reasonable at £800, with an £80 deposit required to 'secure' the puppy.\n\nInitial Communication Red Flags:\n- Pressure to decide quickly due to 'other interested buyers'\n- Elaborate backstory about needing to rehome due to financial difficulties\n- Professional-looking but template website\n- Multiple payment options, all untraceable\n\nAfter sending the £80 deposit via cryptocurrency, the communication pattern changed dramatically:\n1. Additional fees for 'special transport arrangements' due to COVID-19 restrictions\n2. Unexpected vaccination requirements with specific costly providers\n3. Special insurance demands due to pandemic regulations\n4. Threats about losing the deposit if additional fees weren't paid\n\nWhen Sarah refused to pay more and requested a deposit refund, the seller disappeared completely. Further investigation revealed:\n- The photos were stolen from a legitimate breeder's website\n- The same scam was reported multiple times with different breeds\n- The website was only a few months old\n\nKey Lessons:\n- Be wary of requests for deposits via untraceable payment methods\n- Research the seller thoroughly before any payment\n- Be extra cautious during crisis periods when scammers exploit desperation\n- If possible, arrange to meet the pet in person before any payment\n- Verify breeder credentials with recognized organizations\n- Be suspicious of prices significantly below market average\n- Document all communication and save screenshots\n\nSarah's story highlights how scammers exploit emotional vulnerability and use current events to add credibility to their schemes."
+      },
+      "injured-dog": {
+        "content": "Social media posts about injured animals can trigger strong emotional responses, making people vulnerable to scams. In this particularly heartbreaking case, we tracked a sophisticated scam operation that exploited people's compassion for injured animals across multiple social media platforms.\n\nThe Scam Pattern:\n1. Posts would appear showing a severely injured dog, claiming it was found in various locations\n2. Emotional storytelling about the dog's condition and urgent need for surgery\n3. Multiple accounts sharing and vouching for the story's authenticity\n4. Various payment methods offered for 'emergency veterinary care'\n\nOur Investigation Revealed:\n- The same injured dog photo was used across different cities and countries\n- Each post claimed the incident happened 'just hours ago'\n- Professional emotional manipulation techniques in the writing\n- Coordinated network of fake accounts providing false verification\n- Multiple payment channels leading to untraceable accounts\n\nDocumented Impact:\n- Over 50 identical cases reported across different regions\n- Estimated thousands of dollars collected from well-meaning donors\n- Emotional trauma to people who believed they were helping\n- Decreased trust in legitimate animal welfare organizations\n\nHow We Tracked It:\n- Collaborated with social media platforms to track posting patterns\n- Used reverse image search to document photo usage\n- Gathered victim reports to establish timeline and methods\n- Worked with local animal welfare organizations to verify claims\n\nKey Lessons:\n- Reverse image search photos of injured animals\n- Verify claims through local animal welfare organizations\n- Be cautious of urgent donation requests\n- Report suspicious posts to platform administrators\n- Donate only through verified local organizations\n- Check posting history and account credibility\n- Be wary of stories that create excessive urgency\n\nThis case demonstrates how scammers exploit both social media algorithms and human empathy to maximize their reach and impact."
+      },
+      "holiday-scam": {
+        "content": "During the holiday season, Linda from Ohio found an adorable Siberian Husky puppy advertised online. The timing seemed perfect - a Christmas gift for her children after their beloved family dog passed away. The price seemed reasonable at $600, well below the typical $1,500-2,000 range, which the seller explained was due to needing to rehome quickly before moving.\n\nInitial Convincing Elements:\n- Professional-looking website with AKC registration claims\n- Extensive documentation including vaccination records\n- Video calls showing puppies (later discovered to be recorded)\n- Positive reviews and testimonials\n- Detailed care instructions and support promises\n\nRed Flags That Emerged:\n1. After payment, sudden demands for additional fees:\n   - Special climate-controlled holiday shipping ($400)\n   - Emergency vaccination update ($250)\n   - Special travel crate rental ($150)\n   - Insurance for transit ($300)\n\n2. Pressure tactics:\n   - Claims about other buyers waiting\n   - Limited time holiday discounts\n   - Threats about puppy's welfare\n   - Emotional manipulation about children's Christmas\n\nLinda's Investigation:\n- Cross-referenced photos finding them used in ads across multiple states\n- Discovered identical testimonials on different websites\n- Found warnings about similar scams on pet fraud forums\n- Learned the registered business address was fake\n\nTotal Impact:\n- Financial loss: $600 initial payment\n- Emotional trauma to family, especially children\n- Time wasted in fruitless communication\n- Holiday plans disrupted\n\nKey Lessons:\n- Be especially vigilant during holiday seasons when scams increase\n- Watch for sellers who suddenly demand additional fees\n- Cross-reference photos across multiple platforms\n- Use secure payment methods that offer buyer protection\n- Research typical prices for the breed\n- Verify physical addresses and business registrations\n- Be wary of prices significantly below market value\n- Consider local adoption from shelters instead\n\nThis case highlights how scammers exploit both the holiday season's urgency and families' emotional desires to create convincing schemes."
+      }
+    },
+    "captions": {
+      "typhoon-flooding": "Flooding in Hong Kong during severe typhoon",
+      "suspicious-chat": "Example of a suspicious chat message in a pet scam",
+      "rescue-safety": "Safety first when rescuing animals"
+    },
+    "storiesList": [
+      {
+        "id": "sir-carlos",
+        "title": "Can I come see the cat?",
+        "subtitle": "Close call— We almost got robbed!",
+        "description": "A tale of vigilance and safety in animal rescue during a severe typhoon in Hong Kong.",
+        "thumbnail": "/images/stories/sir-carlos-thumb.jpg",
+        "thumbnailAlt": "Sir Carlo - A Cat Rescue Story",
+        "storyImage": "/images/stories/sir-carlos-thumb.svg",
+        "storyImageAlt": "Typhoon Flooding Rescue Scene"
+      },
+      {
+        "id": "broken-heart",
+        "title": "A Broken Heart and £80 Gone",
+        "subtitle": "The Grief of Losing a Pet to a Heartless Scam",
+        "description": "A woman's story of vulnerability and loss in a pandemic-era pet scam.",
+        "thumbnail": "/images/stories/broken-heart-thumb.jpg",
+        "thumbnailAlt": "Online Puppy Scam Story",
+        "storyImage": "images/stories/broken-heart-thumb.jpg",
+        "storyImageAlt": "Online Puppy Scam Story"
+      },
+      {
+        "id": "injured-dog",
+        "title": "Scammed by Sympathy",
+        "subtitle": "How Fake Injured Dog Posts Target Your Heart",
+        "description": "A warning about emotional manipulation in social media pet scams.",
+        "thumbnail": "/images/stories/holiday-scam.jpg",
+        "thumbnailAlt": "Microchip Fraud Story",
+        "storyImage": "/images/stories/holiday-scam.jpg",
+        "storyImageAlt": "Safety First Rescue Guide"
+      },
+      {
+        "id": "holiday-scam",
+        "title": "A Dream Puppy, A Broken Promise",
+        "subtitle": "Ohio Woman's $600 Heartache After Holiday Scam",
+        "description": "A cautionary tale of online pet scams during the holiday season.",
+        "thumbnail": "/images/stories/injured-dog.jpg",
+        "thumbnailAlt": "Pet Transportation Scam Story",
+        "storyImage": "/images/stories/injured-dog.jpg",
+        "storyImageAlt": "Holiday Scam Warning"
+      }
+    ]
+  },
+  "members": {
+    "title": "Coalition Members",
+    "description": "Meet the dedicated members of our coalition working to prevent pet fraud.",
+    "totalMembers": "Total Members: 121",
+    "joinButton": "Join",
+    "categories": {
+      "advocacyAmbassadors": {
+        "title": "Advocacy Ambassadors",
+        "members": [
+          "Sarika Choy",
+          "MeloCat"
+        ]
+      },
+      "advisoryAllies": {
+        "title": "Advisory Allies",
+        "members": [
+          "CatisCat Hong Kong (天下貓貓一樣貓)",
+          "Paws Guardan Rescue Shelter (毛孩守護者)"
+        ]
+      },
+      "strategicAssociates": {
+        "title": "Strategic Associates",
+        "members": [
+          "SpaceShip Hong Kong",
+          "Paws Guardan Rescue Shelter (毛孩守護者)"
+        ]
+      },
+      "supportingPartners": {
+        "title": "Supporting Partners",
+        "members": [
+          "Hong Kong Animal Post (香港動物報)"
+        ]
+      }
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Learn about PetFraud.org's mission and impact in preventing pet-related scams.",
+    "history": "Our History",
+    "mission": "Our Mission",
+    "content": {
+      "intro": "PetFraud.org is a heartfelt community united by love for animals and the determination to protect them from harm. The story of PetFraud.org began in 1998, when our founder embarked on a life-changing journey of rescuing, rehoming, and adopting animals in need.",
+      "experience": "Over the years, we've seen the best and worst of humanity—countless acts of kindness that restore faith, but also heartbreaking examples of exploitation. Innocent animals are often used as emotional bait, their suffering crafted into tragic tales designed to manipulate well-meaning individuals. Fraudsters masquerade as volunteers, a term that evokes trust and authority but is sadly unregulated. Unlike reputable shelter workers, these imposters use their guise to prey on compassion. Some unethical breeders go so far as to rebrand discarded animals as 'adoptions,' charging exorbitant fees while falsely claiming credit for noble deeds. And these are just a few examples; the realm of pet-related scams extends even further, including into pet sales—a practice we neither promote nor condone but acknowledge as rife with deceit. These issues demand urgent attention, and that's why we exist.",
+      "foundation": "PetFraud.org was founded with the mission to stop pet-related fraud activities and to say 'enough is enough.' As a global coalition, we are committed to exposing these injustices, creating a safe space for animal lovers to connect and take a stand. Together, we protect animals and the people who care for them, tackling these troubling gray areas with collective strength, empathy, and unwavering resolve.",
+      "purpose": "PetFraud.org exists to create a world where compassion prevails, and trust is not exploited. We are here to empower individuals and communities with the tools, knowledge, and resources to:",
+      "objectives": {
+        "identify": "Identify Scams: Equip the public with the ability to recognize deceitful practices involving animals",
+        "report": "Report Exploitation: Provide victims with accessible platforms to share their experiences and seek help",
+        "stop": "Stop Malicious Activities: Collaborate with experts to expose unethical behavior, raise awareness, and create preventative measures",
+        "support": "Support Victims: Offer guidance and emotional support to those affected, ensuring they feel empowered and not alone"
+      },
+      "impact": "These harmful practices not only endanger animals but also extinguish the kindness and trust that inspire people to help in the first place. Many victims of pet scams feel isolated, fearful, or even ashamed, leaving them to suffer in silence. This silence impacts both the people and animals involved, perpetuating a cycle of harm and mistrust. PetFraud.org is here to break that silence. We are a sanctuary for those in need, a collective force of individuals who believe in protecting what matters most: kindness, compassion, and the lives of animals.",
+      "strategy": "Knowing fraudsters are constantly devising new schemes, our strategy is to foster awareness and encourage people to act confidently and purposefully. By doing so, we aim to preserve the humanity and love that drive positive change. Together, we can ensure that good intentions lead to good outcomes and that no one has to face these challenges alone.",
+      "closing": "Join us in this vital mission. With your support, we can create a brighter future for animals and the people who love them."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Get in touch with PetFraud.org for support or information.",
+    "content": "We're here to help. Whether you need support, want to report a potential scam, or are interested in joining our coalition, please don't hesitate to reach out to us at help@petfraud.org."
+  },
+  "join": {
+    "button": "Join",
+    "title": "Join Our Mission"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": {
+      "why": {
+        "question": "Why should I get involved with PetFraud.org?",
+        "answer": "By joining PetFraud.org, you become part of a dedicated movement to protect both animals and people from exploitation. Your involvement helps raise awareness, educate the community, and empower victims to take action."
+      },
+      "how": {
+        "question": "How does PetFraud.org help combat animal-related scams?",
+        "answer": "PetFraud.org provides essential resources and tools to educate the public on identifying and reporting scams. We work with experts to spread awareness, share real-life stories, and create preventative measures."
+      },
+      "money": {
+        "question": "Does fraud always have to involve money?",
+        "answer": "No, fraud does not always involve money. Fraud can also include deceit or manipulation for other benefits, such as gaining access to personal information, obtaining goods or services, or exploiting trust for non-monetary advantages."
+      },
+      "difference": {
+        "question": "Can my contribution really make a difference?",
+        "answer": "Absolutely! Every action counts, whether it's sharing our resources, reporting suspicious activity, or volunteering your time. When compassionate people come together, we create a strong community that is resilient against scammers."
+      }
+    }
+  },
+  
+  "footer": {
+    "about": {
+      "title": "About Us",
+      "description": "PetFraud.org is dedicated to protecting both animals and people from scams and fraud in the pet industry."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "For inquiries or support, please email us at help@petfraud.org"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "rights": "All rights reserved."
+  }
+}

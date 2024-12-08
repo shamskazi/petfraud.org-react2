@@ -1,0 +1,9 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#fee2e2"/>
+  <!-- Broken Heart -->
+  <path d="M300 100 C250 60 150 60 150 150 C150 250 300 300 300 300 L270 200 L330 200 L300 300 C300 300 450 250 450 150 C450 60 350 60 300 100" fill="#ef4444" stroke="#dc2626" stroke-width="8"/>
+  <path d="M270 200 L330 200" stroke="#dc2626" stroke-width="8"/>
+  <!-- Pound Symbol -->
+  <text x="500" y="250" font-family="Arial" font-size="120" fill="#dc2626">£</text>
+  <text x="550" y="280" font-family="Arial" font-size="60" fill="#dc2626">80</text>
+</svg>
