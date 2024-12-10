@@ -20,7 +20,7 @@ export function Stories() {
   return (
     <>
       <SEO 
-        title={`${t('stories.title')} - PetFraud.org`}
+        title={`${t('stories.title')} - LovePetsWisely.org`}
         description={t('stories.description')}
       />
       <Navbar />

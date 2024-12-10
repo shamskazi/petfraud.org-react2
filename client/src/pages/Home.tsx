@@ -12,9 +12,9 @@ export function Home() {
   return (
     <>
       <Helmet>
-        <title>PetFraud.org - {t('hero.title')}</title>
+        <title>LovePetsWisely.org - {t('hero.title')}</title>
         <meta name="description" content={t('hero.description')} />
-        <meta property="og:title" content={`PetFraud.org - ${t('hero.title')}`} />
+        <meta property="og:title" content={`LovePetsWisely.org - ${t('hero.title')}`} />
         <meta property="og:description" content={t('hero.description')} />
         <meta property="og:image" content="/images/hero/petscamhero.jpg" />
       </Helmet>

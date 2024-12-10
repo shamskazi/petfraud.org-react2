@@ -35,7 +35,7 @@ export function Navbar() {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <a href={`/${currentLanguage}`} className="text-xl font-bold">
-              PetFraud<span className="text-primary">.org</span>
+              LovePetsWisely<span className="text-primary">.org</span>
             </a>
           </div>
           <div className="hidden lg:flex items-center justify-center flex-1">

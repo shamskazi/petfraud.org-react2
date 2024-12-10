@@ -50,7 +50,7 @@ export function Story() {
   return (
     <>
       <SEO 
-        title={`${story.title} - PetFraud.org`}
+        title={`${story.title} - LovePetsWisely.org`}
         description={story.description}
         image={story.storyImage}
       />

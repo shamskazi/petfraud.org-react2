@@ -9,7 +9,7 @@ export function About() {
   return (
     <>
       <SEO 
-        title={`${t('about.title')} - PetFraud.org`}
+        title={`${t('about.title')} - LovePetsWisely.org`}
         description={t('about.description')}
       />
       <Navbar />

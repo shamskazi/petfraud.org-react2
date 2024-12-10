@@ -17,7 +17,7 @@ export function Members() {
   return (
     <>
       <SEO 
-        title={`${t('members.title')} - PetFraud.org`}
+        title={`${t('members.title')} - LovePetsWisely.org`}
         description={t('members.description')}
       />
       <Navbar />

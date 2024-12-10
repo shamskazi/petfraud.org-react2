@@ -33,7 +33,7 @@ export function Footer() {
           </div>
         </div>
         <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground">
-          <p>© {currentYear} PetFraud.org. {t('footer.rights')}</p>
+          <p>© {currentYear} LovePetsWisely.org. {t('footer.rights')}</p>
         </div>
       </div>
     </footer>

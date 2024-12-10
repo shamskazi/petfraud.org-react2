@@ -20,7 +20,7 @@ export function Hero() {
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl my-4">
             {t('hero.title')}
           </h1>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
             {t('hero.description')}
           </p>
         </div>
