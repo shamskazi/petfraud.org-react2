@@ -1,8 +1,8 @@
+
 import { useTranslation } from 'react-i18next';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import { SEO } from '../lib/seo';
-import { Button } from "@/components/ui/button";
 
 export function Contact() {
   const { t } = useTranslation();
@@ -15,23 +15,15 @@ export function Contact() {
       />
       <Navbar />
       <main className="min-h-screen pt-16 mt-16 px-4 max-w-6xl mx-auto">
-        <h1 className="text-4xl font-bold mb-8">{t('contact.title')}</h1>
-        <div className="prose max-w-none text-muted-foreground">
-          {t('contact.content')}
-        </div>
-        <div className="flex justify-center mt-4">
-          <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90 px-4 py-2"> 
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeCU2N2aHsxUn6xtACa8NTIKFlpjzlYmnAmm9m1ildFwqHQkA/viewform" 
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
-              {t('contact.contactButton')}
-            </a>
-          </Button>
-        </div>
-        
-        
+        <article className="prose prose-lg max-w-none mx-auto">
+          <h1 className="text-4xl font-bold mb-8 text-center text-foreground">{t('contact.title')}</h1>
+          
+          <section className="mb-12">
+            <p className="text-muted-foreground text-center">
+              {t('contact.content')}
+            </p>
+          </section>
+        </article>
       </main>
       <Footer />
     </>
