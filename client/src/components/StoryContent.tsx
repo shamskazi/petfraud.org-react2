@@ -22,20 +22,20 @@ export function StoryContent({ content }: StoryContentProps) {
   const [loadedImages, setLoadedImages] = useState<{ [key: string]: boolean }>({});
   const [errorImages, setErrorImages] = useState<{ [key: string]: boolean }>({});
 
-  // Parse content into blocks
-  const blocks = content.split('\n\n').map((block): ContentBlock => {
+  // Parse content into blocks using "\n" for new lines
+  const blocks = content.split('\n').map((block): ContentBlock => {
     // Check if the block is an image marker
     if (block.startsWith('![') && block.includes('](')) {
       const altMatch = block.match(/!\[(.*?)\]/);
       const srcMatch = block.match(/\((.*?)\)/);
-      const captionMatch = block.match(/\{caption:(.*?)\}/); // New caption syntax
+      const captionMatch = block.match(/\{caption:(.*?)\}/);
       if (altMatch && srcMatch) {
         return {
           type: 'image',
           content: {
             src: srcMatch[1],
             alt: altMatch[1],
-            caption: altMatch[1], // Default to alt text
+            caption: altMatch[1],
             captionKey: captionMatch ? captionMatch[1].trim() : undefined,
           },
         };

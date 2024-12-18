@@ -41,9 +41,9 @@
         "subtitle": "Close call— We almost got robbed!",
         "description": "A tale of vigilance and safety in animal rescue during a severe typhoon in Hong Kong.",
         "thumbnail": "/images/stories/sir-carlos-thumb-small.jpg",
-        "thumbnailAlt": "Sir Carlo - A Cat Rescue Story",
-        "storyImage": "/images/stories/sir-carlos-thumb.svg",
-        "storyImageAlt": "Typhoon Flooding Rescue Scene"
+        "thumbnailAlt": "Sir Carlos - A Cat Rescue Story",
+        "storyImage": "/images/stories/sirCarlosBanner.jpg",
+        "storyImageAlt": "Sir Carlos"
       },
       {
         "id": "broken-heart",
@@ -52,7 +52,7 @@
         "description": "A woman's story of vulnerability and loss in a pandemic-era pet scam.",
         "thumbnail": "/images/stories/broken-heart.jpg",
         "thumbnailAlt": "Online Puppy Scam Story",
-        "storyImage": "images/stories/broken-heart-thumb.jpg",
+        "storyImage": "/images/stories/broken-heart.jpg",
         "storyImageAlt": "Online Puppy Scam Story"
       },
       {
