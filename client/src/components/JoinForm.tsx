@@ -11,7 +11,7 @@ export function JoinForm() {
         size="lg"
         className="bg-primary text-primary-foreground hover:bg-primary/90"
       >
-        <a href="https://forms.gle/oQteRQPbH1FNJUd9A" target="_blank" rel="noopener noreferrer">
+        <a href="https://forms.gle/5oiFhe2BkqcKYAtp6" target="_blank" rel="noopener noreferrer">
           {t('join.button')}
         </a>
       </Button>

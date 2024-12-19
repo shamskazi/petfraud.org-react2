@@ -30,7 +30,7 @@ export function Stories() {
           <p className="text-xl text-muted-foreground mb-8">{t('stories.description')}</p>
           <Button asChild>
             <a 
-              href="https://docs.google.com/forms/d/1QFmxlB8WWaZVCc3C0vhOxkE3oPNPpJ6bSJ3ldGh3KEM/" 
+              href="https://forms.gle/4kggRcv5eSRLktGt5" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-primary text-primary-foreground hover:bg-primary/90"
