@@ -11,8 +11,8 @@
     "description": "LovePetsWisely.org 是一個致力於保護無辜生命的強大聯盟，專注於揭露並對抗那些利用動物和善良之心的騙子。我們以同理心和正義為使命，為個人和社區提供辨識、舉報及阻止詐騙行為所需的資源與知識。攜手合作，我們能夠共同守護動物與人類免受傷害，確保信任與愛不再被別有用心者所操控與利用。"
   },
   "stories": {
-    "title": "真实宠物诈骗故事",
-    "description": "阅读真实的宠物诈骗故事，了解如何保护自己。",
+    "title": "真實故事",
+    "description": "閱讀真實的寵物詐騙故事，瞭解如何保護自己。",
     "submitButton": "提交故事",
     "notFound": "找不到故事",
     "storyContent": {
@@ -31,8 +31,8 @@
     },
     "captions": {
       "typhoon-flooding": "Flooding in Hong Kong during severe typhoon",
-      "suspicious-chat": "宠物诈骗中可疑的聊天记录示例",
-      "rescue-safety": "动物救援中的安全第一准则"
+      "suspicious-chat": "寵物詐騙中可疑的聊天記錄示例",
+      "rescue-safety": "動物救援中的安全第一準則"
     },
     "storiesList": [
       {
