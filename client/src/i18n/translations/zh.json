@@ -12,7 +12,7 @@
   },
   "stories": {
     "title": "真實故事",
-    "description": "閱讀真實的寵物詐騙故事，瞭解如何保護自己。",
+    "description": "閱讀真實的故事，瞭解如何保護自己。",
     "submitButton": "提交故事",
     "notFound": "找不到故事",
     "storyContent": {
