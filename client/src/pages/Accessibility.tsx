@@ -1,37 +1,47 @@
+
 import { useTranslation } from 'react-i18next';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import { SEO } from '../lib/seo';
-import { Button } from "@/components/ui/button";
 
-export function Accessibility () {
+export function Accessibility() {
   const { t } = useTranslation();
 
   return (
     <>
       <SEO 
-        title={`${t('contact.title')} - LovePetsWisely.org`}
-        description={t('contact.description')}
+        title={`${t('Accessibility.title')} - LovePetsWisely.org`}
+        description={t('Accessibility.description')}
       />
       <Navbar />
       <main className="min-h-screen pt-16 mt-16 px-4 max-w-6xl mx-auto">
-        <h1 className="flex justify-center text-4xl font-bold mb-8">{t('contact.title')}</h1>
-        <div className="prose max-w-none text-muted-foreground">
-          {t('contact.content')}
+        <h1 className="flex justify-center text-4xl font-bold mb-8">Accessibility Statement</h1>
+        <div className="prose max-w-none text-muted-foreground mb-4">
+          {t('Accessibility.effectiveDate')}
         </div>
-        <div className="flex justify-center mt-4">
-          <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90 px-4 py-2"> 
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeCU2N2aHsxUn6xtACa8NTIKFlpjzlYmnAmm9m1ildFwqHQkA/viewform" 
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
-              {t('contact.contactButton')}
-            </a>
-          </Button>
+        <div className="prose max-w-none text-foreground mb-8">
+          {t('Accessibility.welcomeMessage')}
         </div>
-
-
+        <div className="space-y-8">
+          {[...Array(18)].map((_, i) => (
+            <section key={i + 1} className="prose max-w-none">
+              <h2 className="text-2xl font-semibold text-foreground mb-4">
+                {t(`Accessibility.sections.${i + 1}.title`)}
+              </h2>
+              <div className="text-muted-foreground">
+                {Array.isArray(t(`Accessibility.sections.${i + 1}.content`, { returnObjects: true })) ? (
+                  <ul className="list-disc pl-6 space-y-2">
+                    {t(`Accessibility.sections.${i + 1}.content`, { returnObjects: true }).map((item: string, index: number) => (
+                      <li key={index}>{item}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p>{t(`Accessibility.sections.${i + 1}.content`)}</p>
+                )}
+              </div>
+            </section>
+          ))}
+        </div>
       </main>
       <Footer />
     </>
