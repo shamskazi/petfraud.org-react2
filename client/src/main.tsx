@@ -17,7 +17,6 @@ import { Contact } from "./pages/Contact";
 import { Terms } from "./pages/Terms";
 import { Privacy } from "./pages/Privacy";
 import { Cookie } from "./pages/CookieNotice";
-import { NotFound } from "./pages/NotFound";
 import { Accessibility } from "./pages/Accessibility";
 
 
