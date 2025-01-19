@@ -1,40 +1,25 @@
 import { useTranslation } from 'react-i18next';
 
 export function Footer() {
-  const { t } = useTranslation();
-  const currentYear = new Date().getFullYear();
+  const { i18n } = useTranslation();
+  const currentLanguage = i18n.language;
 
   return (
     <footer className="bg-muted/50 mt-12 border-t">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div>
-            <h3 className="text-lg font-semibold mb-4">{t('footer.about.title')}</h3>
-            <p className="text-muted-foreground">{t('footer.about.description')}</p>
-          </div>
-          <div>
-            <h3 className="text-lg font-semibold mb-4">{t('footer.contact.title')}</h3>
-            <p className="text-muted-foreground">{t('footer.contact.description')}</p>
-          </div>
-          <div>
-            <h3 className="text-lg font-semibold mb-4">{t('footer.legal.title')}</h3>
-            <ul className="space-y-2">
-              <li>
-                <a href="/privacy-policy" className="text-muted-foreground hover:text-foreground">
-                  {t('footer.legal.privacy')}
-                </a>
-              </li>
-              <li>
-                <a href="/terms" className="text-muted-foreground hover:text-foreground">
-                  {t('footer.legal.terms')}
-                </a>
-              </li>
-            </ul>
-          </div>
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center">
+        <div className="flex justify-center text-muted-foreground">
+          <a href={`/${currentLanguage}/terms`} className="mx-2">Terms</a>
+          <span>|</span>
+          <a href={`/${currentLanguage}/privacy`} className="mx-2">Privacy Policy</a>
+          <span>|</span>
+          <a href={`/${currentLanguage}/accessibility`} className="mx-2">Accessibility Policy</a>
+          <span>|</span>
+          <a href={`/${currentLanguage}/cookienotice`} className="mx-2">Cookie Notice</a>
+          <span>|</span>
+          <a href={`/${currentLanguage}/contact`} className="mx-2">Contact</a>
         </div>
-        <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground">
-          <p>© {currentYear} LovePetsWisely.org. {t('footer.rights')}</p>
-        </div>
+        <br />
+        <p>© 2025 LovePetsWisely.org. All rights reserved.</p>
       </div>
     </footer>
   );

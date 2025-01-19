@@ -14,6 +14,12 @@ import { Story } from "./pages/Story";
 import { Members } from "./pages/Members";
 import { About } from "./pages/About";
 import { Contact } from "./pages/Contact";
+import { Terms } from "./pages/Terms";
+import { Privacy } from "./pages/Privacy";
+import { Cookie } from "./pages/CookieNotice";
+import { NotFound } from "./pages/NotFound";
+import { Accessibility } from "./pages/Accessibility";
+
 
 function Router() {
   const { i18n } = useTranslation();
@@ -34,6 +40,10 @@ function Router() {
       <Route path="/:lang/members" component={Members} />
       <Route path="/:lang/about" component={About} />
       <Route path="/:lang/contact" component={Contact} />
+      <Route path="/:lang/terms" component={Terms} />
+      <Route path="/:lang/accessibility" component={Accessibility} />
+      <Route path="/:lang/privacy" component={Privacy} />
+      <Route path="/:lang/cookienotice" component={Cookie} />
       <Route path="/:lang" component={Home} />
       <Route path="/">
         <div>Redirecting...</div>
