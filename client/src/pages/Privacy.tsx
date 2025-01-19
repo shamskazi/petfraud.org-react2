@@ -31,7 +31,7 @@ export function Privacy() {
               <div className="text-muted-foreground">
                 {Array.isArray(t(`PrivacyNotice.sections.${i + 1}.content`, { returnObjects: true })) ? (
                   <ul className="list-disc pl-6 space-y-2">
-                    {t(`PrivacyNotice.sections.${i + 1}.content`, { returnObjects: true }).map((item: string, index: number) => (
+                    {(t(`PrivacyNotice.sections.${i + 1}.content`, { returnObjects: true }) as string[]).map((item: string, index: number) => (
                       <li key={index}>{item}</li>
                     ))}
                   </ul>
