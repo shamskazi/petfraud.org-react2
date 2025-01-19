@@ -34,10 +34,10 @@ export function Cookie() {
 
           <section className="prose max-w-none">
             <h2 className="text-2xl font-semibold text-foreground mb-4">Cookie Types</h2>
-            <div className="text-muted-foreground space-y-4">
+            <div className="text-muted-foreground/80 space-y-4">
               {['i', 'ii', 'iii', 'iv'].map((type) => (
                 <div key={type}>
-                  <h3 className="text-xl font-medium mb-2">
+                  <h3 className="text-xl font-medium text-foreground/90 mb-2">
                     {t(`CookieNotice.cookieNotice.cookieTypes.${type}.title`)}
                   </h3>
                   <p>{t(`CookieNotice.cookieNotice.cookieTypes.${type}.content`)}</p>
