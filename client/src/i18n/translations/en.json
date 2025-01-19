@@ -408,11 +408,81 @@
       },
       "18": {
         "title": "18. Contact Information",
-        "content": "If you have any questions or concerns about these Terms, please contact us at [Contact Email]."
+        "content": "If you have any questions or concerns about these Terms, please contact us at help@lovepetswisely.org."
       }
     }
   },
 
+  "CookieNotice": {
+    "effectiveDate": "January 18, 2024",
+    "cookieNotice": {
+      "introduction": "We use cookies and related tracking technologies, including web beacons, tracking pixels and log files (collectively referred to as “cookies”) on this website to distinguish you from other users, assess and improve functionality of the website and our services, and provide you with a good experience.",
+      "whatIsACookie": {
+        "title": "What is a Cookie",
+        "content": "Cookies are pieces of information shared between your web browser and a website. Some cookies are necessary for making the website work. Some help us assess and improve its performance. We also use cookies to help provide relevant content, products and services to you. A cookie cannot read data off your computer's hard drive."
+      },
+      "cookieTypes": {
+        "i": {
+          "title": "i. Session cookies",
+          "content": "These are only stored on your computer during your web session. They are automatically deleted when the browser is closed. They usually store an anonymous session ID allowing you to browse a website without having to log in to each page. They do not collect any information from your computer."
+        },
+        "ii": {
+          "title": "ii. Persistent cookies",
+          "content": "These cookies are stored as a file on your computer and remain there when you close your web browser. They can be read by the website that created them when you visit the website again."
+        },
+        "iii": {
+          "title": "iii. First-party cookies",
+          "content": "These cookies are created by our company. They are stored and sent between our servers and your computer’s hard drive. These cookies may be either Session or Persistent cookies."
+        },
+        "iv": {
+          "title": "iv. Third-party cookies",
+          "content": "These cookies are created by one of our third-party partners. They are stored and sent between the third-party’s server and your computer’s hard drive. These cookies are usually Persistent cookies."
+        }
+      },
+      "howAndWhyWeUseCookies": {
+        "whereStrictlyNecessary": {
+          "title": "Where Strictly Necessary",
+          "content": "These cookies are essential in order to enable you to move around the website and use its features, such as accessing secure areas of the website. Without these cookies, services you have asked for, such as obtaining a quote or logging into your account, cannot be provided. These cookies do not gather information about you that could be used for marketing or remembering where you have been on the internet."
+        },
+        "functionality": {
+          "title": "Functionality",
+          "content": "These cookies allow our website to remember choices you make (such as your username, language or the region you are in) and provide enhanced features. For instance, a website may be able to remember your log in details, so that you do not have to repeatedly sign-in to your account when using a particular device to access our website. These cookies can also be used to remember changes you have made to text size, font and other parts of web pages that you can customize. They may also be used to provide services you have requested such as viewing a video or commenting on an article. The information these cookies collect is usually de-identified. They do not gather any information about you that could be used for advertising or remember where you have been on the internet."
+        },
+        "analytics": {
+          "title": "Analytics",
+          "content": "These cookies collect information about how visitors use a website, for instance which pages visitors go to most often, and if they get error messages from web pages. They also allow us to record and count the number of visitors to the website, all of which enables us to see how visitors use the website in order to improve the way that our website works."
+        },
+        "advertising": {
+          "title": "Advertising",
+          "content": "These cookies are used for the purpose of displaying advertisements that will be relevant to you and for managing the performance of advertisements. Advertising cookies are generally third-party cookies and may be present even if there is no advertising in use on the website."
+        },
+        "ipAddresses": {
+          "title": "IP Addresses",
+          "content": "When you visit our website, we may collect your Internet Protocol (“IP”) addresses to track and aggregate non-Personal Information. For example, we may use IP addresses to monitor the regions from which users navigate the website."
+        }
+      },
+      "howToManageCookies": {
+        "title": "How to manage Cookies",
+        "content": "Please click the “Manage Cookies” link at the bottom of the page to opt in or out of certain cookies using our Cookie Consent Manager. Note that it is not possible to opt out of Strictly Necessary Cookies, so websites that only use such cookies may not provide this link.\n\nYou can also disable certain cookies via browser settings- Apple Safari (as described here), Google Chrome (as described here), Internet Explorer (as described here) and Mozilla Firefox (as described here)."
+      },
+      "cookiePolicyDoesNotCover": {
+        "title": "Cookie policy does not cover third party websites",
+        "content": "When we include links to other websites, please bear in mind they will have their own privacy and cookie policies that will govern the use of any information you submit. We recommend you read their policies as we are not responsible or liable for their privacy practices."
+      },
+      "changesToCookieNotice": {
+        "title": "Changes to the Cookie Notice",
+        "content": "We may update this policy occasionally and we encourage you to review the policy from time to time to stay informed of how we are using cookies. We post the effective date of the policy at the top of the page."
+      },
+      "descriptionOfCookiesUsed": {
+        "title": "Description of Cookies used",
+        "content": "Please click on the “Manage Cookies” link in the footer of the website to find details about the individual cookies used on the website. This link may not be available if we only use Strictly Necessary Cookies on the website."
+      },
+      "contactUs": {
+        "title": "Contact us",
+        "content": "If you have any questions about this Cookie Notice, please contact us as indicated in our Privacy Notice linked below."
+      }
+    }
+  },
   
   "footer": {
     "about": {
