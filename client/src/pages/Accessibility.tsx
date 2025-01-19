@@ -31,7 +31,7 @@ export function Accessibility() {
               <div className="text-muted-foreground">
                 {Array.isArray(t(`Accessibility.sections.${i + 1}.content`, { returnObjects: true })) ? (
                   <ul className="list-disc pl-6 space-y-2">
-                    {t(`Accessibility.sections.${i + 1}.content`, { returnObjects: true }).map((item: string, index: number) => (
+                    {(t(`Accessibility.sections.${i + 1}.content`, { returnObjects: true }) as string[]).map((item: string, index: number) => (
                       <li key={index}>{item}</li>
                     ))}
                   </ul>
