@@ -28,7 +28,7 @@ export function Navbar() {
   const scrollDirection = useScrollDirection();
   
   return (
-    <nav className={`fixed w-full bg-background/90 backdrop-blur-sm shadow-sm z-50 border-b transition-all duration-500 ${
+    <nav className={`fixed w-full bg-background/90 backdrop-blur-sm shadow-sm z-50 border-b transition-all duration-500 dark:bg-background/90 ${
       scrollDirection === 'down' ? '-top-20' : 'top-0'
     }`}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
