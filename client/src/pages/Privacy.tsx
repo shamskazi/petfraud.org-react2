@@ -37,13 +37,13 @@ export function Privacy() {
                       <p>{t('PrivacyNotice.sections.1.content.a.details.accountInformation')}</p>
                       <p>{t('PrivacyNotice.sections.1.content.a.details.contentSubmissions')}</p>
                     </div>
-                    <h3 className="font-semibold mt-4">{t('PrivacyNotice.sections.1.content.b.title')}</h3>
+                    <h3 className="font-semibold mt-4 text-foreground">{t('PrivacyNotice.sections.1.content.a.title')}</h3>
                     <div className="ml-4">
                       <p>{t('PrivacyNotice.sections.1.content.b.details.deviceInformation')}</p>
                       <p>{t('PrivacyNotice.sections.1.content.b.details.usageData')}</p>
                       <p>{t('PrivacyNotice.sections.1.content.b.details.cookiesAndTracking')}</p>
                     </div>
-                    <h3 className="font-semibold mt-4">{t('PrivacyNotice.sections.1.content.c.title')}</h3>
+                    <h3 className="font-semibold mt-4 text-foreground">{t('PrivacyNotice.sections.1.content.a.title')}</h3>
                     <p className="ml-4">{t('PrivacyNotice.sections.1.content.c.content')}</p>
                   </>
                 ) : Array.isArray(t(`PrivacyNotice.sections.${i + 1}.content`, { returnObjects: true })) ? (
