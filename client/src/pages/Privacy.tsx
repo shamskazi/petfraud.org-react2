@@ -31,8 +31,8 @@ export function Privacy() {
               <div className="text-muted-foreground">
                 {i + 1 === 1 ? (
                   <>
-                    <h3 className="font-semibold mt-4">{t('PrivacyNotice.sections.1.content.a.title')}</h3>
-                    <div className="ml-4">
+                    <h3 className="font-semibold mt-4 text-foreground">{t('PrivacyNotice.sections.1.content.a.title')}</h3>
+                    <div className="ml-4 text-foreground/80">
                       <p>{t('PrivacyNotice.sections.1.content.a.details.contactInformation')}</p>
                       <p>{t('PrivacyNotice.sections.1.content.a.details.accountInformation')}</p>
                       <p>{t('PrivacyNotice.sections.1.content.a.details.contentSubmissions')}</p>
