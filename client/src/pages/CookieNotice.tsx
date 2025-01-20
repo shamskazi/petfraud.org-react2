@@ -48,13 +48,13 @@ export function Cookie() {
 
           <section className="prose max-w-none">
             <h2 className="text-2xl font-semibold text-foreground mb-4">How and Why We Use Cookies</h2>
-            <div className="text-muted-foreground space-y-4">
+            <div className="space-y-4">
               {Object.keys(t('CookieNotice.cookieNotice.howAndWhyWeUseCookies', { returnObjects: true })).map((key) => (
                 <div key={key}>
-                  <h3 className="text-xl font-medium mb-2">
+                  <h3 className="text-xl font-medium mb-2 text-foreground">
                     {t(`CookieNotice.cookieNotice.howAndWhyWeUseCookies.${key}.title`)}
                   </h3>
-                  <p>{t(`CookieNotice.cookieNotice.howAndWhyWeUseCookies.${key}.content`)}</p>
+                  <p className="text-foreground/80">{t(`CookieNotice.cookieNotice.howAndWhyWeUseCookies.${key}.content`)}</p>
                 </div>
               ))}
             </div>
