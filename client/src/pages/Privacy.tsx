@@ -29,7 +29,24 @@ export function Privacy() {
                 {t(`PrivacyNotice.sections.${i + 1}.title`)}
               </h2>
               <div className="text-muted-foreground">
-                {Array.isArray(t(`PrivacyNotice.sections.${i + 1}.content`, { returnObjects: true })) ? (
+                {i + 1 === 1 ? (
+                  <>
+                    <h3 className="font-semibold mt-4">{t('PrivacyNotice.sections.1.content.a.title')}</h3>
+                    <div className="ml-4">
+                      <p>{t('PrivacyNotice.sections.1.content.a.details.contactInformation')}</p>
+                      <p>{t('PrivacyNotice.sections.1.content.a.details.accountInformation')}</p>
+                      <p>{t('PrivacyNotice.sections.1.content.a.details.contentSubmissions')}</p>
+                    </div>
+                    <h3 className="font-semibold mt-4">{t('PrivacyNotice.sections.1.content.b.title')}</h3>
+                    <div className="ml-4">
+                      <p>{t('PrivacyNotice.sections.1.content.b.details.deviceInformation')}</p>
+                      <p>{t('PrivacyNotice.sections.1.content.b.details.usageData')}</p>
+                      <p>{t('PrivacyNotice.sections.1.content.b.details.cookiesAndTracking')}</p>
+                    </div>
+                    <h3 className="font-semibold mt-4">{t('PrivacyNotice.sections.1.content.c.title')}</h3>
+                    <p className="ml-4">{t('PrivacyNotice.sections.1.content.c.content')}</p>
+                  </>
+                ) : Array.isArray(t(`PrivacyNotice.sections.${i + 1}.content`, { returnObjects: true })) ? (
                   <ul className="list-disc pl-6 space-y-2">
                     {(t(`PrivacyNotice.sections.${i + 1}.content`, { returnObjects: true }) as string[]).map((item: string, index: number) => (
                       <li key={index}>{item}</li>
